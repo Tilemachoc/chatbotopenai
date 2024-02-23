@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- fix: zoom website -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section class="header">
+            <nav>
+                <a href="Magna.html"><img class='magna_logo' src="images/Magna_logo.png" alt="Magna logo"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">PROCESS</a></li>
+                        <li><a href="">DEMO</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+
+        <div class="text-box">
+            <h1>Language into Leverage</h1>
+            <p>Turn language into a powerful lever for business innovation and success using<br> NLP solutions</p>
+            <a href="" class="book-btn">Book a call</a>
+        </div class='text-box'>
+        </section>
+
+        <!-- PROCESS -->
+        <div class="background-div">
+            <section class="process custom-section">
+                <h1>AI Project Roadmap</h1>
+                <p>Consult, Create, Train, Deploy</p>
+
+                <div class="row">
+                    <div class="process-col">
+
+                        <div class="numbers blue1">Step 1</div>
+                        <h3>Initial Consultation</h3>
+                        <p>Begin with a detailed discussion about your AI needs. We'll identify the ideal solution that matches your project's goals.</p>
+                    </div>
+                    <div class="process-col">
+
+                        <div class="numbers blue2">Step 2</div>
+                        <h3>Dataset Development</h3>
+                        <p>Develop a tailored, high-quality dataset critical for your AI project, ensuring a strong foundation for model training.</p>
+                    </div>
+                    <div class="process-col">
+
+                        <div class="numbers blue3">Step 3</div>
+                        <h3>Model Training</h3>
+                        <p>Train your AI using the industry's leading models, specifically adapted to your unique task for optimal performance.</p>
+                    </div>
+                    <div class="process-col">
+
+                        <div class="numbers blue4">Step 4</div>
+                        <h3>Review and Implementation</h3>
+                        <p>Conduct a thorough review to ensure the AI solution meets your standards, followed by a smooth deployment in your operational setting.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="custom-section">
+                <div class="ad m-around">
+                    <div class="solution">
+                        <h2 class="text-center ad-title">
+                            <span class='color-text'>Transform</span> 
+                            <span class="op-40">your business<br></span>
+                            <span class="color-text"> with AI</span>
+                            <span class="op-40">in just weeks</span>
+                        </h2>
+                        <div class="start-now-link">
+                            <p class="start-now">START NOW</p>
+                            <i class="fa fa-external-link"></i>
+                        </div>
+                    </div>
+                    <div class="vouch">
+                            <h4 class="client-name">Client Name</h4>
+                            <p class="big-text fit-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore eius perferendis praesentium, optio eveniet corrupti. Temporibus vel corporis vitae ratione, amet optio molestiae pariatur. Facere quos voluptates neque fuga porro!</p>
+                    </div>
+                </div>
+
+            </section>
+            <!--DEMO-->
+            <div class="chatbotANDgen">
+                <!-- Chatbot -->
+                <section class="custom-section chatbotfull show-chatbot">
+                    <div class="chatbotANDheader">
+                        <h2 class="color-text">Try our Chatbot!</h2>
+                        <div class="chatbot">
+                            <div class="demo-header">
+                                <h3>Chatbot</h3>
+                            </div>
+                            <ul class="chatbox">
+                                <li class="chat incoming">
+                                    <span class="material-symbols-outlined">smart_toy</span>
+                                    <p>Hi there 👋 <br> How can I help you today?</p>
+                                </li>
+                            </ul>
+                            <div class="chat-input">
+                                <textarea placeholder="'Enter a message..." required></textarea>
+                                <span id="send-btn" class="material-symbols-outlined">send</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="chatbot-toggler">
+                        <span class="material-symbols-outlined">mode_comment</span>
+                        <span class="material-symbols-outlined">close</span>
+                    </button>
+                </section>
+                <!--image-generator-->
+                <section class="custom-section">
+                    <div class="imagegen">
+                        
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
